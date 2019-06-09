@@ -1,0 +1,446 @@
+body {
+  min-width: 1040px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page-header {
+  min-height: 550px;
+  background: url('../img/bgr-header.jpg') no-repeat 15% 25%;
+  background-size: cover;
+  border: .1px solid transparent;
+
+  .menu-header {
+    float: right;
+  }
+
+  .tagline {
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
+.header-logo {
+  float: left;
+}
+
+.menu {
+  li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 50px;
+  }
+
+  li:last-child {
+    padding-right: 0;
+  }
+
+
+  li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #ffcb78;
+    }
+
+    &:active {
+      color: #a4a4a4;
+    }
+  }
+
+  ul {
+    border: 1px solid transparent;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    /*top right bottom left*/
+    padding: 20px 0;
+    margin: 0;
+  }
+}
+
+/*Новинки*/
+.headline-page {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.page-new {
+  box-sizing: border-box;
+
+  .headline-page {
+    margin: 100px 0 110px 0;
+  }
+
+  .new-product {
+    width: 99.5% / 2;
+    height: 740px;
+    border: 1px solid transparent;
+    border-right: 1px solid #bbbbbb;
+
+
+    .description-left {
+      width: 175px;
+      float: right;
+      margin: 10px 0 0 0;
+    }
+
+    img {
+      float: left;
+      margin-left: 65px;
+    }
+  }
+
+  .product-left {
+    float: left;
+    border-left: 1px solid #bbbbbb;
+  }
+
+  .product-right {
+    float: right;
+  }
+
+  .alcohol-product, .calories-product {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .calories-product {
+    margin-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #bbbbbb;
+  }
+
+  .composition-product {
+    font-size: 12px;
+    color: #929292;
+  }
+
+  .name-product {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*top right bottom left*/
+    margin: 60px 0 50px 35px;
+  }
+
+  .description-product {
+    color: #929292;
+    line-height: 30px;
+    margin-left: 35px;
+  }
+
+  .btn-more {
+    color: #854505;
+    border: 1px solid #854505;
+    margin-left: 35px;
+
+    &:hover {
+      color: #fff;
+      background: #854505;
+    }
+
+    &:active {
+      color: #854505;
+      background-color: #fff;
+    }
+  }
+
+  .btn-buy {
+    color: #fff;
+    background: #854505;
+    border: 1px solid #854505;
+
+    &:hover {
+      color: #854505;
+      background-color: #fff;
+    }
+
+    &:active {
+      color: #fff;
+      background: #854505;
+    }
+  }
+
+  .price-product {
+    display: inline;
+    font-weight: bold;
+    margin-left: 30px;
+
+  }
+
+  .new-footer {
+    margin-top: 70px;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+/*Преимущества*/
+.page-advantages {
+  background-color: rgb(255, 203, 120);
+  margin-top: 115px;
+
+  .clearfix {
+    width: 1015px;
+    margin: 0 auto;
+  }
+
+
+  ul li {
+    width: 310px;
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid #929292;
+    margin: 0;
+    box-sizing: border-box;
+
+    h2 {
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #929292;
+      margin-top: 30px;
+    }
+
+    &:nth-child(2) {
+      padding-left: 90px;
+    }
+
+    &:last-child {
+      border-right: 1px solid transparent;
+      padding-left: 90px;
+    }
+  }
+
+}
+
+/*История*/
+
+.page-history {
+  .headline-page {
+    margin-top: 50px;
+    margin-bottom: 85px;
+  }
+
+  .origin-history {
+    margin-bottom: 60px;
+  }
+
+  .classification-history {
+    margin-bottom: 70px;
+  }
+
+  .section-top {
+    p {
+      float: left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    i {
+      float: right;
+      padding-top: 15px;
+
+      a {
+        color: rgb(131, 71, 0);
+      }
+    }
+  }
+
+  .section-bottom {
+    p {
+      float: left;
+      width: 490px;
+      margin-top: 10px;
+      color: #929292;
+      line-height: 30px;
+    }
+
+    img {
+      float: right;
+      margin-top: 10px;
+    }
+  }
+}
+
+
+/*Пресса*/
+
+.page-press {
+  background-color: rgb(237, 229, 216);
+
+  .headline-page {
+    margin-bottom: 90px;
+
+  }
+
+  blockquote {
+    color: #929292;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+  .btn-read {
+    border: 1px solid #929292;
+    color: #929292;
+    float: left;
+
+    &:hover {
+      color: #fff;
+      background-color: #929292;
+    }
+
+    &:active {
+      color: #929292;
+      background-color: transparent;
+    }
+  }
+
+  cite {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    float: right;
+    padding-top: 15px;
+
+  }
+
+  .press-bottom {
+    //margin-bottom: 90px;
+  }
+}
+
+/*Ассортимент*/
+
+.page-range {
+  .headline-page {
+    /*top right bottom left*/
+    margin: 100px 0 90px 0;
+    padding: 0;
+  }
+
+  .range-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 90px;
+
+    tr {
+      th {
+        color: #929292;
+        padding-bottom: 45px;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 10px;
+        border-bottom: 1px solid #929292;
+
+        &:last-child {
+          text-align: right;
+        }
+
+        &:first-child {
+          text-align: left;
+        }
+      }
+
+      td {
+        color: rgb(68, 68, 68);
+        text-transform: uppercase;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #929292;
+
+        &:last-child {
+          text-align: right;
+        }
+
+        .new-product {
+          display: inline;
+          font-weight: normal;
+          font-size: 9px;
+          padding: 2px 4px;
+          background-color: #000;
+          color: #fff;
+          border-radius: 3px;
+          vertical-align: top;
+          margin-left: 30px;
+        }
+      }
+
+      .name-product {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: left;
+      }
+    }
+  }
+}
+
+/*Заказать*/
+
+.page-order {
+  background-color: rgb(255, 203, 120);
+
+
+  input[type="text"], select, textarea {
+    width: 600px;
+    height: 50px;
+    float: right;
+    margin-bottom: 10px;
+    background-color: rgb(230, 182, 108);
+    border: 1px solid transparent;
+  }
+
+  textarea{
+    height: 150px;
+  }
+
+  label {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .phone-left{
+    float: left;
+    width: 50%;
+  }
+
+  .phone-right{
+    float: right;
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  #phone1, #phone2{
+    width: 200px;
+  }
+
+}
+
