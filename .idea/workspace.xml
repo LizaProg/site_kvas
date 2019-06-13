@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b2fa575-f59a-4563-b215-9a1708cdf8eb" name="Default Changelist" comment="" />
+    <list default="true" id="6b2fa575-f59a-4563-b215-9a1708cdf8eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/humans.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/humans.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,16 +24,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="219" column="22" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#1144#1148#0" expanded="true" />
-                    <element signature="e#1226#1230#0" expanded="true" />
-                    <element signature="e#4235#4239#0" expanded="true" />
-                    <element signature="e#4446#4450#0" expanded="true" />
-                    <element signature="e#4666#4670#0" expanded="true" />
-                    <element signature="e#4884#4888#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="346">
+                  <caret line="278" column="7" selection-start-line="278" selection-start-column="7" selection-end-line="278" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -35,26 +33,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/css/humans.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="367">
-                  <caret line="437" column="22" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
+                <state relative-caret-position="397">
+                  <caret line="602" column="21" lean-forward="true" selection-start-line="602" selection-start-column="21" selection-end-line="602" selection-end-column="21" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/build/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-680">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="7350">
+                  <caret line="490" column="2" selection-start-line="490" selection-start-column="2" selection-end-line="490" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -74,6 +67,7 @@
     <findStrings>
       <find>butt</find>
       <find>000</find>
+      <find>пре</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,9 +82,20 @@
         <option value="$PROJECT_DIR$/src/css/base.less" />
         <option value="$PROJECT_DIR$/src/css/style.less" />
         <option value="$USER_HOME$/Desktop/site/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build/css/style.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/humans.less" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/site-kvas.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -98,7 +103,7 @@
     <option name="x" value="4" />
     <option name="y" value="3" />
     <option name="width" value="1275" />
-    <option name="height" value="684" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -118,12 +122,6 @@
               <item name="site-kvas" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Code/CODE_2019/site-kvas" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site-kvas" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Code/CODE_2019/site-kvas" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="site-kvas" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -146,9 +144,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -195,18 +195,22 @@
       <updated>1559737611137</updated>
       <workItem from="1559737612617" duration="5830000" />
       <workItem from="1559814882869" duration="791000" />
-      <workItem from="1559815846895" duration="38929000" />
+      <workItem from="1559815846895" duration="52128000" />
+      <workItem from="1560452434002" duration="1720000" />
+      <workItem from="1560454258772" duration="1768000" />
+      <workItem from="1560456083223" duration="1791000" />
+      <workItem from="1560457905361" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45550000" />
+    <option name="totallyTimeSpent" value="64193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="3" width="1275" height="684" extended-state="0" />
+    <frame x="4" y="3" width="1275" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19457735" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19457735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -240,13 +244,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/lib.less">
       <provider selected="true" editor-type-id="text-editor">
@@ -290,37 +287,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="5" selection-start-column="2" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/checkboxes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="7350">
+          <caret line="490" column="2" selection-start-line="490" selection-start-column="2" selection-end-line="490" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="219" column="22" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
-          <folding>
-            <element signature="e#1144#1148#0" expanded="true" />
-            <element signature="e#1226#1230#0" expanded="true" />
-            <element signature="e#4235#4239#0" expanded="true" />
-            <element signature="e#4446#4450#0" expanded="true" />
-            <element signature="e#4666#4670#0" expanded="true" />
-            <element signature="e#4884#4888#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="278" column="7" selection-start-line="278" selection-start-column="7" selection-end-line="278" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/humans.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="437" column="22" selection-start-line="437" selection-start-column="22" selection-end-line="437" selection-end-column="22" />
+        <state relative-caret-position="397">
+          <caret line="602" column="21" lean-forward="true" selection-start-line="602" selection-start-column="21" selection-end-line="602" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
